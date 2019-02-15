@@ -1,28 +1,33 @@
 import React, { Component } from 'react';
-import logo from './logo.svg';
+import Nav from "./components/Nav";
+import Home from "./components/Home";
+import Login from "./components/Login";
+import Emotion from "./components/Emotion";
 import './App.css';
+import CreateAccount from './components/CreateAccount';
 
-class App extends Component {
+var ReactRouter = require("react-router-dom");
+var Router = ReactRouter.BrowserRouter;
+var Route = ReactRouter.Route;
+var Switch = ReactRouter.Switch;
+
+export default class App extends Component {
   render() {
     return (
-      <div className="App">
-        <header className="App-header">
-          <img src={logo} className="App-logo" alt="logo" />
-          <p>
-            Edit <code>src/App.js</code> and save to reload.
-          </p>
-          <a
-            className="App-link"
-            href="https://reactjs.org"
-            target="_blank"
-            rel="noopener noreferrer"
-          >
-            Learn React
-          </a>
-        </header>
-      </div>
+      <Router>
+        <div className='container'>
+          <Nav />
+          <Switch>
+            <Route exact path="/" component={Home} />
+            <Route exact path="/login" component={Login} />
+            <Route path="/createAccount" component={CreateAccount} />
+            <Route path="/emotion" component={Emotion} />
+            <Route render={() => {
+              return <p>Not found</p>
+            }} />
+          </Switch>
+        </div>
+      </Router>
     );
   }
 }
-
-export default App;
