@@ -4,6 +4,11 @@ Say how you're feeling each day and view your emotion history
 # Home
 ![home](https://user-images.githubusercontent.com/19285486/52952141-a09abc00-337b-11e9-8825-338c1ff723b7.png)
 
+# How are you feeling today
+![emotion](https://user-images.githubusercontent.com/19285486/52952199-c4f69880-337b-11e9-8cdc-e8a38054aa27.png)
+
+# Your emotion history
+
 ## Available Scripts
 
 In the project directory, you can run:
