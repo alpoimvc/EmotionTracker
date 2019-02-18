@@ -1,4 +1,4 @@
-# EmotionTracker
+# EmotionTracker - Made with React
 Say how you're feeling each day and view your emotion history
 
 # Home
