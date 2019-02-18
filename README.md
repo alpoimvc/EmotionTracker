@@ -8,6 +8,7 @@ Say how you're feeling each day and view your emotion history
 ![emotion](https://user-images.githubusercontent.com/19285486/52952199-c4f69880-337b-11e9-8cdc-e8a38054aa27.png)
 
 # Your emotion history
+![history](https://user-images.githubusercontent.com/19285486/52952242-e192d080-337b-11e9-8213-9fc9b419113f.png)
 
 ## Available Scripts
 
